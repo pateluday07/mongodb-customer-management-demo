@@ -4,7 +4,7 @@ the MongoDB in Spring Boot web application,
 here I am managing the customers, by performing CRUD 
 operations.
 
-###Requirements 
+### Requirements 
 For building and running the application you need: 
 * Git
 * JDK 8 or later
@@ -17,7 +17,7 @@ For building and running the application you need:
 * Swagger
 * IDE
 
-###Running the application locally
+### Running the application locally
 1. Download the zip or clone the Git repository
 2. Open **build.gradle** file from your favorite IDE
 3. Select option **Open as Project** in your IDE
