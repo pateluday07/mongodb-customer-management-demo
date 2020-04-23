@@ -1,9 +1,3 @@
 spring:
-  data:
-    mongodb:
-      authentication-database: admin
-      username: admin
-      password: admin
-      port: 27017
-      host: localhost
-      database: customers_management_demo
+    profiles:
+        active: local

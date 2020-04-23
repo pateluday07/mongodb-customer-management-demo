@@ -1,0 +1,20 @@
+version: "3"
+services:
+  Spring_Boot_App:
+    image: uday07/mongodb-customer-demo
+    container_name: customer_management_demo_spring_boot
+    ports:
+      - "8080:8080"
+    depends_on:
+      - MongoDb
+
+  MongoDb:
+    image: mongo:4.2.6
+    container_name: customer_management_demo_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - dev-mongo:/data/db
+
+volumes:
+  dev-mongo:
