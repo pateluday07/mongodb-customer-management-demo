@@ -22,7 +22,7 @@ For building and running the application you need:
 2. Open **build.gradle** file from your favorite IDE
 3. Select option **Open as Project** in your IDE
 4. Start MongoDB
-5. Config MongoDB properties from `src/main/resources/application.yml`
+5. Config MongoDB properties from `src/main/resources/application-local.yml`
 6. Go to the `com.mongodb.demo.CustomerMongodbDemoApplication` and run the class.
 Or you can open the IDE terminal and simply run the following command
                 

@@ -1,4 +1,0 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb://customer_management_demo_mongodb:27000/customers_management_demo
