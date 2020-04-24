@@ -31,7 +31,7 @@ Or you can open the IDE terminal and simply run the following command
 You can open the swagger to access the APIs: [Swagger] (http://localhost:8080/swagger-ui.html)
 
 ### Docker
-in case if you have docker in your machine then just go inside 
+In case if you have docker in your machine then just go inside 
 the **mongodb-customer-management-demo** directory and execute the 
 following command:
 
