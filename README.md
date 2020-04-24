@@ -29,3 +29,14 @@ Or you can open the IDE terminal and simply run the following command
        gradlew bootrun
 
 You can open the swagger to access the APIs: [Swagger] (http://localhost:8080/swagger-ui.html)
+
+### Docker
+in case if you have docker in your machine then just go inside 
+the **mongodb-customer-management-demo** directory and execute the 
+following command:
+
+    docker-compose up
+    
+And done.
+
+Now you can open the swagger to access the APIs: [Swagger] (http://localhost:8080/swagger-ui.html)
