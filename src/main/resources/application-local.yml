@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://admin:admin@localhost:27017/user-management-demo?authSource=admin&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
+      uri: mongodb://admin:admin@localhost:27017/customers_management_demo?authSource=admin&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false
